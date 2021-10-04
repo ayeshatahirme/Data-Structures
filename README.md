@@ -4,8 +4,6 @@
 <div align="center">
 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ST1LLWATER/Sorting-Algorithms)
-![Lines of code](https://img.shields.io/tokei/lines/github/ST1LLWATER/Sorting-Algorithms?color=red&label=Lines%20of%20Code)
-![Forks](https://img.shields.io/github/forks/ST1LLWATER/Sorting-Algorithms?style=flat&logo=github)
 
 </div>
 
