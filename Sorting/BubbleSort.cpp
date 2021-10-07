@@ -2,6 +2,8 @@
 
 #include<iostream>
 using namespace std;
+
+// Function to swap nteger values
 void swap(int *x, int *y)
 {
 	int temp = *x;
@@ -9,6 +11,7 @@ void swap(int *x, int *y)
 	*y = temp;
 }
 
+// Funtion to sort values using Bubble Sort
 void bubbleSort(int arr[], int size)
 {
 	for (int i = 0; i < size-1; ++i)
@@ -23,6 +26,8 @@ void bubbleSort(int arr[], int size)
 		
 	}
 }
+
+// Function to print output array
 void print(int arr[], int size)
 {
 	cout << endl;
@@ -33,7 +38,7 @@ void print(int arr[], int size)
 	cout << endl;
 }
 
-
+// Driver code
 int main()
 {
 	int arr[] = { 64, 34, 25, 12, 22, 11, 90};
