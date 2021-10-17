@@ -1,0 +1,52 @@
+
+1. PQue(CNode *&ptr);
+	It is a parameteric constructor in which a CNode type pointer to address 
+	is passed and head is equal to ptr. It has o precondition. This function
+	also don not have any return type.
+
+2. PQue();
+	A NULL constructor to create an empty queue. It makes head NULL and 
+	count is set to 0. This function has no pre-condition, no parameter
+	and no return type because the implicit return type is class type 
+	itself.
+
+3.	bool isNotEmpty()const;
+	This function is to check if the priority queue is empty or not. It has a precondition to check if there
+	is top or not. Incase top is not NULL this shows priority queue is not empty otherwise list is empty. It is 
+	a bool function which returns a true or false. It has no parameters and it is a constant function
+	as we only want to know either priority queue is empty or not.
+	
+4.	bool isEmpty()const;
+	This function is to check if the priority queue is empty or not. It has a precondition to check if there
+	is top or not. Incase top is NULL this shows priority queue is empty otherwise list is not empty. It is 
+	a bool function which returns a true or false. It has no parameters and it is a constant function
+	as we only want to know either priority queue is empty or not.
+
+
+5.	PQue &Add(CNode *&ptr);
+	It is a function to add a priority queue. This function has a CNode type. It has a precondition that 
+	if there is a top then pop the value otherwise if top has no next declare it NULL. As it a CNode
+	type function so, Pop from stack is returned. Nothing is passed to	the function.
+
+	
+6.	CNode *remove();
+	It is a function to remove a priority queue. This function has a CNode type. It has a precondition that 
+	if there is a top then pop the value otherwise if top has no next declare it NULL. As it a CNode
+	type function so, Pop from stack is returned. Nothing is passed to	the function.
+
+7.	PQue(const PQue &src);
+	This function is to copy list values into a new priority queue. It is passed source of priority queue to
+	be copied. The value passed is constant beacuse we only want to pass address of source and do not want to
+	change it. It copies all the members one by to the new list. This function has no value to return.
+
+	
+8.	PQue &operator=(const PQue& obj);
+	It is an assignment operator. It has a precondition that if value of passes	priority queue 
+	is equal to the other priority queue. If it is equal, the value is returned and further process
+	other priority queue top is made equal the top of priority queue. It also have a return type.
+
+9.	~PQue();
+	This is a destructor. This function is used to return memory space. Until there is ptr, it moves to next
+	and deleted top and make top the next ptr. Likewise all the head are deleted. It also deletes tail of 
+	priority queue. No parameter is passed and it has no return type as it is not to return any value but to 
+	delete pointers.

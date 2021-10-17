@@ -1,0 +1,50 @@
+1. CQue();
+	It is a zero parameter NULL constructor. It makes the tail of queue NULL. It has no precondition and
+	no return type. The only function of this default constructor is to make the tail NULL.
+		
+2. CQue(CNode *&ptr);
+	It is a parameterized constructor. A pointer to address is passed in which it is made equal to that of 
+	stack. The tail of queue is made equal to the top. It has no preconditions and no return type. Its type
+	is that of class itself.
+
+3. bool IsNotEmpty() const;
+	This function is to check if the queue is empty or not. It has a precondition to check if there
+	is top or not. Incase top is not NULL this shows queue is not empty otherwise queue is empty. It is 
+	a bool function which returns a true or false. It has no parameters and it is a constant function
+	as we only want to know either queue is empty or not.
+
+4. bool IsEmpty() const;
+	This function is to check if the queue is empty or not. It has a precondition to check if there
+	is top or not. Incase top is NULL this shows queue is empty otherwise queue is not empty. It is 
+	a bool function which returns a true or false. It has no parameters and it is a constant function
+	as we only want to know either queue is empty or not.
+
+5. CNode *remove();
+	It is a function to remove a queue. This function has a CNode type. It has a precondition that 
+	if there is a top then pop the value otherwise if top has no next declare it NULL. As it a CNode
+	type function so, Pop from stack is returned. Nothing is passed to	the function.
+
+6. CQue &Add(CNode *&ptr);
+	It is function to add a data value in queue. a CNode tpye pointer to address is passed to the function.
+	It has a precondition that if there is tail, make the passed value its next and tail should point its 
+	next value. Otherwise tail and top will be ptr. Thr return type of this function is same of class.
+
+7. void print()const;
+	This function is to print values of queue. It has a precondition if there is top or not. If there is no top,
+	it shows a message of empty queue otherwise values of queue are printed. It has no return type, nor it was 
+	passed any parameter.
+	
+8. CQue(const CQue &src);
+	This function is to copy queue into a new queue. It is passed source of queue to be copied. The value passed 
+	is constant beacuse we only want to pass address of source and do not want to change it. It copies all the
+	members one by oby to the new queue. This function has no value to return.
+
+9. CQue &operator=(const CQue &obj);
+	This is a function to check either two queues are equal or not. It has a precondition that if value of passes
+	queue is equal to the other queue. If it is equal, the value is returned and further process other queues top is 
+	made equal the top of queue. It also have a return type.
+
+10. ~CQue();
+	This is a destructor. This function is used to return memory space. Until there is ptr, it moves to next
+	and deleted top and make top the next ptr. Likewise all the tops are deleted. It also deletes tail of queue
+	No parameter is passed and it has no return type as it is not to return any value but to delete pointers.
