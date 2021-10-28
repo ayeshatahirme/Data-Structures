@@ -1,0 +1,8 @@
+﻿  main.cpp
+c:\users\ayesha\desktop\labs\dsa lab\stack\stack\stack.cpp(159): warning C4018: '<': signed/unsigned mismatch
+c:\users\ayesha\desktop\labs\dsa lab\stack\stack\stack.cpp(212): warning C4018: '<': signed/unsigned mismatch
+  stack.cpp
+c:\users\ayesha\desktop\labs\dsa lab\stack\stack\stack.cpp(159): warning C4018: '<': signed/unsigned mismatch
+c:\users\ayesha\desktop\labs\dsa lab\stack\stack\stack.cpp(212): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Stack.vcxproj -> C:\Users\Ayesha\Desktop\Labs\DSA Lab\Stack\Debug\Stack.exe

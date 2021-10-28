@@ -1,0 +1,4 @@
+﻿  Driver.cpp
+c:\users\ayesha\desktop\labs\dsa lab\task2-pque\pque\driver.cpp(8): warning C4101: 'P1': unreferenced local variable
+c:\users\ayesha\desktop\labs\dsa lab\task2-pque\pque\driver.cpp(8): warning C4101: 'P2': unreferenced local variable
+  PQue.vcxproj -> C:\Users\Ayesha\Desktop\Labs\DSA Lab\Task2-PQue\Debug\PQue.exe

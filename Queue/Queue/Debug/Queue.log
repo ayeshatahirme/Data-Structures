@@ -1,0 +1,7 @@
+﻿  CNode.cpp
+  Driver.cpp
+  Queue.cpp
+  Stack.cpp
+  Generating Code...
+c:\users\ayesha\desktop\labs\dsa theory\queue\queue\queue.cpp(111): warning C4715: 'CQue::operator=': not all control paths return a value
+  Queue.vcxproj -> C:\Users\Ayesha\Desktop\Labs\DSA theory\Queue\Debug\Queue.exe
