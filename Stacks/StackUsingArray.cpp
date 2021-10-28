@@ -1,5 +1,7 @@
 #include<iostream>
 using namespace std;
+
+// creating class for stack
 class Stack{
     int* arr;
     int nextIndex;
@@ -10,7 +12,8 @@ public:
         nextIndex = 0;
         size = 5;
     }
-
+    
+    // Pushing values in array
     void push(int val){
         if(nextIndex==size){
             int* newArr = new int[size*2];
