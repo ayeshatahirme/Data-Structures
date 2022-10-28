@@ -6,11 +6,6 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ST1LLWATER/Sorting-Algorithms)
 
 </div>
-
-<div align="center">
-  <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" alt="ds-algo">
-</div>
-
 <br>
 
 <div align="center">
